@@ -63,11 +63,9 @@ section {
 	border: 1px solid black;
 	padding: 15px 15px 2px 15px;
 	margin: 10px 15px 10px 15px;
-	position: relative;
-	padding-bottom: 20px;
 }
 
-.container section > div > div {
+.container section > div > h3 {
 	font-size: 125%;
 	font-weight: bold;
 	text-align: center;
@@ -77,13 +75,9 @@ section {
 	right: 0;
 }
 
-.container section a {
+body .container section a {
 	font-weight: bold;
 	color: inherit;
-	position: absolute;
-	bottom: 0;
-	right: 42%;
-	margin: 15px 0 0;
 }
 
 html body .container .Chicken {
@@ -96,11 +90,4 @@ html body .container .Beef {
 
 html body .container .Sushi {
 	color: #22EE22;
-}
-
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
 }
