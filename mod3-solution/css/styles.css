@@ -50,18 +50,24 @@ body {
 
 .row {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 section {
-	background-color: #232323;
-	border: 1px solid black;
-	color: #FFEECC;
-	padding: 15px 15px 2px 15px;
-	margin: 10px 15px 10px;
+	margin: 0;
 }
 
-.Chicken > div {
-	color: #FFEECC;
+.container section > div {
+	background-color: #232323;
+	border: 1px solid black;
+	padding: 15px 15px 2px 15px;
+	margin: 10px 15px 10px 15px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.container section > div > div {
 	font-size: 125%;
 	font-weight: bold;
 	text-align: center;
@@ -69,6 +75,15 @@ section {
 	padding: 2px;
 	top: 0;
 	right: 0;
+}
+
+.container section a {
+	font-weight: bold;
+	color: inherit;
+	position: absolute;
+	bottom: 0;
+	right: 42%;
+	margin: 15px 0 0;
 }
 
 html body .container .Chicken {
