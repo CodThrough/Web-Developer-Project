@@ -80,6 +80,13 @@ body .container section a {
 	color: inherit;
 }
 
+body .container section a span {
+	font-size: .8em;
+	top: 0;
+	padding-right: 1px;
+	text-decoration: inherit;
+}
+
 html body .container .Chicken {
 	color: #FFEECC;
 }
